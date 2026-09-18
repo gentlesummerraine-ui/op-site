@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Operations Protocol — FEOS</title>
+<meta name="description" content="FEOS — the Fractional Executive Operating System. A single encrypted file that runs on your own machine.">
+<style>
+  :root{
+    --bg:#0e1114; --panel:#151a1f; --panel-2:#11151a; --edge:#262d35; --edge-soft:#1d232a;
+    --ink:#e9e4d8; --soft:#98a0a8; --faint:#6b7280;
+    --gold:#d2a12a; --gold-deep:#a97b12;
+    --ok:#5f9e72;
+    --serif:"Iowan Old Style",Charter,"Source Serif Pro",Georgia,serif;
+    --mono:"SF Mono","Cascadia Code",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.6}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  section{padding:38px 0;border-bottom:1px solid var(--edge-soft)}
+  .part{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+  .part b{color:var(--gold)}
+  h1{font-size:30px;line-height:1.25;margin:0 0 14px}
+  h2{font-size:22px;line-height:1.3;margin:0 0 12px}
+  h3{font-size:17px;margin:26px 0 6px}
+  p{margin:0 0 14px;max-width:62ch}
+  .sub{color:var(--soft)}
+  .rule{height:1px;background:var(--edge);margin:0}
+  ul{margin:0 0 14px;padding-left:20px;max-width:62ch}
+  li{margin-bottom:7px}
+  a{color:var(--gold);text-decoration:underline;text-underline-offset:2px}
+  .price{font-family:var(--mono);font-size:15px;color:var(--ink);border:1px solid var(--edge);background:var(--panel);
+    padding:14px 16px;border-radius:4px;max-width:62ch}
+  .price b{font-size:20px;color:var(--gold)}
+  .note{font-family:var(--mono);font-size:12px;color:var(--faint);letter-spacing:.03em}
+  .check{font-family:var(--mono);font-size:13px;color:var(--soft);border-left:2px solid var(--ok);padding-left:12px;margin:0 0 10px}
+  footer{padding:30px 0 60px;color:var(--faint);font-size:14px}
+  footer p{max-width:62ch}
+</style>
+</head>
+<body>
+
+<section>
+  <div class="wrap">
+    <div class="part"><b>Operations Protocol</b></div>
+    <h1>FEOS — the Fractional Executive Operating System</h1>
+    <p class="sub">One encrypted file. It runs on your machine, holds every engagement you're running, and sends nothing anywhere.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="part">What it is</div>
+    <p>A fractional executive runs three or four engagements at once, each with its own scope, sponsor, cadence and renewal date. The record of what was agreed, what changed and what it was worth usually lives in a mix of documents, threads and memory. At renewal, that record is what you're judged on.</p>
+    <p>FEOS keeps it in one place: discovery and qualification, the statement of work, an engagement health score, a governance register that tracks authority erosion as it happens, weekly and monthly briefs, a value ledger, and the renewal clock for every client.</p>
+    <p>It's a single HTML file. You open it in your browser. There is no account, no server, no subscription and no company holding your client data.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="part">How it's built</div>
+    <p>Everything is encrypted with a passphrase only you have. The data sits in your browser's own storage on your own device.</p>
+    <p class="check">Verified: with a workspace loaded, client names do not appear anywhere in the browser's storage files on disk. The stored values are ciphertext.</p>
+    <p>The tradeoff is real and worth stating plainly: there is no recovery. Nobody can reset your passphrase, because nobody else holds anything. Export a backup and keep it somewhere safe.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="part">What it isn't</div>
+    <ul>
+      <li>Not a CRM, and not a time tracker.</li>
+      <li>Not collaborative. It's your record, not a shared workspace.</li>
+      <li>Not instant. A first engagement takes roughly twenty minutes to set up properly, because the questions it asks are the ones you should be able to answer about a client.</li>
+      <li>Not a substitute for judgment. It scores what you tell it.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="part">The Standard behind it</div>
+    <p>FEOS implements <a href="https://fractionaloperatingstandard.com">The Fractional Operating Standard v1.0</a> — a published doctrine for running a fractional practice: audit anchors, governance response tiers, the renewal clock, the value ledger. The Standard is free, and there's a <a href="https://fractionaloperatingstandard.com">free scorecard</a> that implements two of its instruments in about three minutes.</p>
+    <p>Read the Standard first. If the doctrine doesn't match how you work, the software won't either.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="part">Price</div>
+    <div class="price"><b>$597</b> — one payment, one file, yours to keep. No subscription.</div>
+    <p style="margin-top:16px">FEOS isn't on sale yet. It's finished and in final hardening: a set of data-safety fixes has to pass before I'll take money for something that holds your client record.</p>
+    <p>If you want it when it's ready, write to me and I'll tell you the day it's available. Tell me what you're running now and I'll tell you honestly whether this fits.</p>
+    <p><a href="mailto:raine@operationsprotocol.com?subject=FEOS">raine@operationsprotocol.com</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="note">OPERATIONS PROTOCOL · BUILT BY RAINE</p>
+    <p>I'm not a fractional executive. I'm a systems designer who read everything fractionals write about how their engagements fail, and built the record-keeping those failures point to. The doctrine is public so you can check it against your own experience.</p>
+  </div>
+</footer>
+
+</body>
+</html>
